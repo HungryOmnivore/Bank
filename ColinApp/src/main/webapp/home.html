@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>Home Page</title>
+
+</head>
+
+	<h1>Update Password:</h1>
+
+	<body>
+<!-- Should include an option to go to the update user site, the Checkings account site, and the savings account site. -->
+<!-- Not sure if this is the correct way to set up homepage... -->
+		<form method="post" action="updateUser.html">  
+		
+			<table>
+
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Update Password!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+	
+	<h1>Enter Checking:</h1>
+
+	<body>
+
+		<form method="post" action="checking.html">  
+		
+			<table>
+
+				
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Enter Checking!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+	<h1>Enter Savings:</h1>
+
+	<body>
+
+		<form method="post" action="savings.html">  
+		
+			<table>
+
+				
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Enter Savings!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+	<h1>Delete User:</h1>
+
+	<body>
+
+		<form method="post" action="DeleteUserServlet">  
+		
+			<table>
+
+				<tr>
+					<td>Email:</td>
+
+					<td><input type="text" name="email"/></td>
+
+				</tr>
+
+				<tr>
+
+					<td>Password:</td>
+
+					<td><input type="password" name="password"/></td>
+
+				</tr>
+				
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Delete User!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+	<h1>Users:</h1>
+
+	<body>
+
+		<form method="post" action="readUser.html">  
+		
+			<table>
+
+				
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Read Users!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+	<h1>Default Balance:</h1>
+	<body>
+
+		<form method="post" action="BalanceServlet">  
+		
+			<table>
+
+				<tr>
+
+					<td>Password:</td>
+
+					<td><input type="password" name="password"/></td>
+
+				</tr>
+				<tr>
+
+					<td />
+
+					<td><input type="submit" value="Get default balance!"/></td>
+
+				</tr>
+
+
+
+			</table>
+
+		</form>
+
+	</body>
+
+</html>
